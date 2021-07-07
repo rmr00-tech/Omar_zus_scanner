@@ -154,11 +154,12 @@ def clear():
 def logo():
 	print bcolors.WARNING
         print("""\
-                                  __         __
-                                 _  """+bcolors.BADFAIL+" ●"+bcolors.WARNING+"""_/(  _ _
-                                 (//)
-                                     /
-                     """+bcolors.ENDC+"""(The Multi-Tool Web Vulnerability Scanner)
+                                 
+                                 _  """+bcolors.BADFAIL+" ●"+bcolors.WARNING+""" 
+| | | | '_ ` _ \ / _` | '__| | |_| |/ _` | '_ ` _ \ / _` | | | |
+| |_| | | | | | | (_| | |    |  _  | (_| | | | | | | (_| | |_| |
+ \___/|_| |_| |_|\__,_|_|    |_| |_|\__,_|_| |_| |_|\__,_|\__, |                                                         
+                     """+bcolors.ENDC+"""(The Multi-Tool Web Vulnerability Scanner: @seaman00o)
                             """)
         print bcolors.ENDC
 
