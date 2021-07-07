@@ -125,7 +125,6 @@ def helper():
         print "------------"
         print "\t./omar_zus.py example.com: Scans the domain example.com."
         print "\t./omar_zus.py example.com --skip dmitry --skip theHarvester: Scans the domain example.com, but skip the 'dmitry' and 'theHarvester' tests."
-        print "\t./omar_zus.py --update   : Updates the scanner to the latest version."
         print "\t./omar_zus.py --help     : Displays this help context."
         print bcolors.OKBLUE+"Interactive:"+bcolors.ENDC
         print "------------"
