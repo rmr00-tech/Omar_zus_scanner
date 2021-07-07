@@ -153,12 +153,14 @@ def clear():
 # RapidScan Logo
 def logo():
 	print bcolors.WARNING
-        print("""\
+        print(""" 	
+	                 
                                  
-                                 _  """+bcolors.BADFAIL+" ●"+bcolors.WARNING+""" 
+ / _ \ _ __ ___   __ _ _ __  | | | | __ _ _ __ ___   __| |_   _                                    """+bcolors.BADFAIL+" ●"+bcolors.WARNING+""" 
 | | | | '_ ` _ \ / _` | '__| | |_| |/ _` | '_ ` _ \ / _` | | | |
 | |_| | | | | | | (_| | |    |  _  | (_| | | | | | | (_| | |_| |
- \___/|_| |_| |_|\__,_|_|    |_| |_|\__,_|_| |_| |_|\__,_|\__, |                                                         
+ \___/|_| |_| |_|\__,_|_|    |_| |_|\__,_|_| |_| |_|\__,_|\__, |    
+ 
                      """+bcolors.ENDC+"""(The Multi-Tool Web Vulnerability Scanner: @seaman00o)
                             """)
         print bcolors.ENDC
