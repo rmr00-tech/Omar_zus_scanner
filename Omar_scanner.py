@@ -119,7 +119,7 @@ def vul_remed_info(v1,v2,v3):
 	print "\t"+bcolors.OKGREEN+str(tools_fix[v3-1][2])+bcolors.ENDC
 
 
-# RapidScan Help Context
+# Zus Help Context
 def helper():
         print bcolors.OKBLUE+"Information:"+bcolors.ENDC
         print "------------"
@@ -129,7 +129,7 @@ def helper():
         print bcolors.OKBLUE+"Interactive:"+bcolors.ENDC
         print "------------"
         print "\tCtrl+C: Skips current test."
-        print "\tCtrl+Z: Quits RapidScan."
+        print "\tCtrl+Z: Quits zus."
         print bcolors.OKBLUE+"Legends:"+bcolors.ENDC
         print "--------"
         print "\t["+proc_high+"]: Scan process may take longer times (not predictable)."
