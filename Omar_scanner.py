@@ -149,7 +149,7 @@ def clear():
         sys.stdout.write("\033[F")
         sys.stdout.write("\033[K")
 
-# RapidScan Logo
+# zus Logo
 def logo():
 	print bcolors.WARNING
         print("""
@@ -190,7 +190,7 @@ class Spinner:
                 sys.stdout.flush()
         except (KeyboardInterrupt, SystemExit):
             #clear()
-            print "\n\t"+ bcolors.BG_ERR_TXT+"RapidScan received a series of Ctrl+C hits. Quitting..." +bcolors.ENDC
+            print "\n\t"+ bcolors.BG_ERR_TXT+"zus received a series of Ctrl+C hits. Quitting..." +bcolors.ENDC
             sys.exit(1)
 
     def start(self):
@@ -203,7 +203,7 @@ class Spinner:
             time.sleep(self.delay)
         except (KeyboardInterrupt, SystemExit):
             #clear()
-            print "\n\t"+ bcolors.BG_ERR_TXT+"RapidScan received a series of Ctrl+C hits. Quitting..." +bcolors.ENDC
+            print "\n\t"+ bcolors.BG_ERR_TXT+"zus received a series of Ctrl+C hits. Quitting..." +bcolors.ENDC
             sys.exit(1)
 # End ofloader/spinner class
 
